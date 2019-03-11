@@ -40,7 +40,7 @@ function sendName() {
 
 function showOrder(message) {
     console.log(message);
-    $("#greetings").append("<tr><td>" + message.item + "</td></tr>");
+    $("#orders").append("<tr><td>" + message.item + ":" +message.name + "</td></tr>");
 }
 
 $(function () {
